@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { footerComponent } from './DashBorad/footer';
 import { HeaderComponent } from './DashBorad/Header';
 import { DashBoardComponent } from './DashBorad/dashboard';
+import { PostComponent } from './Pages/Post';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: DashBoardComponent },
+  { path: 'post', component: PostComponent },
  
 ];
 //const rootRouting: ModuleWithProiders = RouterModule.forRoot([]);
@@ -18,7 +20,8 @@ const routes: Routes = [
     AppComponent,
     footerComponent,
     HeaderComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
