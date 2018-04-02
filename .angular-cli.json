@@ -19,10 +19,22 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-                 "../src/css/main.css"
+                    
+                 "styles.css"
+                
 
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/assets/js/jquery.min.js",
+        "../src/assets/js/bootstrap.min.js",
+        "../src/assets/js/jquery.fancybox.pack.js",
+        "../src/assets/js/jquery.li-scroller.1.0.js",
+        "../src/assets/js/jquery.newsTicker.min.js",
+        "../src/assets/js/slick.min.js",
+        "../src/assets/js/wow.min.js",
+        "../src/assets/js/custom.js"
+       
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
