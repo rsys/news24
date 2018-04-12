@@ -4,6 +4,6 @@ Id:number
 Title:string
 SubTitle:string
 PostDate:string
-Stuname:string
+Stuname:string 
     
 } 
